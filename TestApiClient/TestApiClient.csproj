@@ -56,7 +56,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\ApiHelper.cs" />
     <Compile Include="Models\ClientProps.cs" />
     <Compile Include="Models\Emplyee.cs" />
     <Compile Include="Models\INIClientCfg.cs" />

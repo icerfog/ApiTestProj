@@ -11,7 +11,7 @@ namespace TestApiClient
 {
 	public abstract class TestApiBase
 	{
-		protected HttpClient ApiClient;
+		protected HttpClient ApiClient=new HttpClient();
 		protected void Initialize(Uri baseAdress)
 		{
 			ApiClient.BaseAddress = baseAdress;
